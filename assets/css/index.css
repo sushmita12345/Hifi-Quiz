@@ -1,0 +1,68 @@
+@import "/assets/css/reset.css";
+
+.quiz-sight-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dark-matte-color);
+}
+
+.quiz-finsight {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+.quiz-sight-wrapper {
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 35rem 35rem;
+}
+
+.quiz-sight-card {
+  background-color: var(--onyx-shade);
+  border-radius: 2rem;
+  box-shadow: var(--shadow-shade-1) 0px 54px 55px,
+    var(--shadow-shade-2) 0px -12px 30px, var(--shadow-shade-2) 0px 4px 6px,
+    var(--shadow-shade-3) 0px 12px 13px, var(--shadow-shade-4) 0px -3px 5px;
+}
+
+.quiz-card-img {
+  height: 60%;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.quiz-content {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.quiz-content-text {
+  color: var(--off-white-shade);
+  font-size: 1.5rem;
+}
+
+.quiz-que-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-que {
+  color: var(--grey-shade);
+  font-size: 1.2rem;
+}
