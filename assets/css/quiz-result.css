@@ -1,0 +1,27 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/quiz-correct.css";
+
+.added-wrapper {
+  height: 100%;
+}
+
+.quiz-sight-container {
+  height: 100%;
+  width: 70%;
+  margin-top: 5rem;
+}
+
+.added-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn-quiz-three {
+  background-color: var(--primary-color);
+}
+
+.added-result-head {
+  margin-top: 0;
+}
