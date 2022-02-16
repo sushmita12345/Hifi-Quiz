@@ -1,0 +1,6 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/que-screen.css";
+
+.btn-quiz-two {
+  background-color: var(--secondary-color);
+}
