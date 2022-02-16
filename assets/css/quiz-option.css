@@ -1,0 +1,14 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/que-screen.css";
+
+.btn-quiz-one {
+  background-color: var(--primary-color);
+}
+
+.btn-quiz-two {
+  background-color: var(--secondary-color);
+}
+
+.que-option {
+  color: var(--off-white-shade);
+}
