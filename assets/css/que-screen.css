@@ -1,17 +1,20 @@
 @import "/assets/css/reset.css";
+@import "/assets/css/navbar.css";
 
 .main-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   background-color: var(--dark-matte-color);
 }
 
 .question-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .quiz-sight-container {
@@ -24,6 +27,7 @@
   background-color: var(--dark-matte-color);
   padding: 5rem;
   border-radius: 2rem;
+  margin-bottom: 6rem;
   transition: box-shadow 1s;
   box-shadow: var(--shadow-shadw-5) 0px 2px 8px 0px;
 }
@@ -89,4 +93,15 @@
   border: none;
   background-color: var(--onyx-shade);
   color: var(--off-white-shade);
+}
+
+.quiz-submit-result {
+  width: 15rem;
+  height: 5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--onyx-shade);
+  color: var(--off-white-shade);
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
 }

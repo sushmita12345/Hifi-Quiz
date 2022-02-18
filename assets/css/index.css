@@ -1,4 +1,5 @@
 @import "/assets/css/reset.css";
+@import "/assets/css/navbar.css";
 
 .quiz-sight-container {
   height: 100%;
@@ -32,9 +33,13 @@
 .quiz-sight-card {
   background-color: var(--onyx-shade);
   border-radius: 2rem;
-  box-shadow: var(--shadow-shade-1) 0px 54px 55px,
-    var(--shadow-shade-2) 0px -12px 30px, var(--shadow-shade-2) 0px 4px 6px,
-    var(--shadow-shade-3) 0px 12px 13px, var(--shadow-shade-4) 0px -3px 5px;
+  transition: box-shadow 1s;
+  box-shadow: var(--shadow-shadw-5) 0px 2px 8px 0px;
+}
+
+.quiz-sight-card:hover {
+  border-radius: 2rem;
+  box-shadow: var(--shadow-shadw-5) 0px 7px 29px 0px;
 }
 
 .quiz-card-img {
@@ -54,7 +59,7 @@
 
 .quiz-content-text {
   color: var(--off-white-shade);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .quiz-que-container {
@@ -64,5 +69,6 @@
 
 .quiz-que {
   color: var(--grey-shade);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
 }

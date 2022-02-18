@@ -1,0 +1,32 @@
+@import "/assets/css/reset.css";
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+  background-color: var(--onyx-shade);
+}
+
+.quiz-heading {
+  margin-left: 5rem;
+  color: var(--off-white-shade);
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.quiz-login-btn {
+  height: 4rem;
+  width: 10rem;
+  background-color: var(--dark-matte-color);
+  margin-right: 5rem;
+  border: none;
+  color: var(--grey-shade);
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.quiz-login-btn:hover {
+  box-shadow: var(--shadow-shade-1) 0px 3px 8px;
+}
