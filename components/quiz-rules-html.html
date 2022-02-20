@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/quiz-rule-html.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="container-wrapper">
+        <nav class="navigation">
+            <a href="/"><h1 class="quiz-heading">HI-FI Quiz</h1></a>
+            <button onclick="location.href='/components/logout.html'" class="quiz-login-btn">Logout</button>
+        </nav>
+        <div class="quiz-main-container">
+            <h1 class="quiz-instruction-head">Multiple Choice Quiz Instruction</h1>
+            <p class="quiz-instruction">To avoid mistakes read carefully</p>
+            
+            <div class="quiz-instruction-container">
+                <div class="quiz-instruction-part">
+                    <span class="material-icons quiz-done">
+                        done_outline
+                    </span>
+                    <div class="quiz-instruction-content">
+                        Read the questions carefully and choose the option that better describes the answer.
+                    </div>
+                </div>
+                
+                <div class="quiz-instruction-part">
+                    <span class="material-icons quiz-done">
+                        done_outline
+                    </span>
+                    <div class="quiz-instruction-content">
+                        There are 5 questions on HTML and each question is followed by 3 choices.
+                    </div>
+                </div>
+                <div class="quiz-instruction-part">
+                    <span class="material-icons quiz-done">
+                        done_outline
+                    </span>
+                    <div class="quiz-instruction-content">
+                        You will get 4 points for each correct answer and -1 point will be deducted for wrong answer.
+                    </div>
+                </div>
+            </div>
+            <button onclick="location.href='/components/que-screen1.html'" class="quiz-start">Start Quiz</button>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

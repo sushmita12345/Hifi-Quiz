@@ -1,0 +1,116 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/navbar.css";
+
+.container {
+  width: 100%;
+  height: calc(100vh - 8rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(---dark-matte-color);
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-matte-color);
+}
+
+.container-wrapper {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--onyx-shade);
+  padding: 3rem 5rem;
+  border-radius: 5px;
+  box-shadow: var(--black-shade) 0px 1px 4px;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 4.2rem;
+  color: var(--off-white-shade);
+}
+
+.login-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: var(--off-white-shade);
+}
+
+.login-box {
+  height: 4rem;
+  width: 25vw;
+  border: none;
+  border-radius: 5px;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  color: var(--off-white-shade);
+}
+
+.pwd-remember {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rem-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.login-checkbox {
+  margin-right: 0.5rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.login-remember {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+  color: var(--off-white-shade);
+}
+
+.login-forget {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: var(--off-white-shade);
+}
+
+.login-btn {
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--login-color);
+  color: var(--off-white-shade);
+  border: none;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.login-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+  color: var(--off-white-shade);
+}

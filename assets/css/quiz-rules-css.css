@@ -1,0 +1,70 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/navbar.css";
+
+.container-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--dark-matte-color);
+}
+
+.quiz-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-instruction-head {
+  color: var(--off-white-shade);
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+
+.quiz-instruction {
+  color: var(--off-white-shade);
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.quiz-instruction-part {
+  height: 8rem;
+  width: 90rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--onyx-shade);
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+.quiz-instruction-part:hover {
+  box-shadow: var(--onyx-shade) 0px 3px 8px;
+  transition: ease-in-out 0.5s;
+}
+
+.quiz-instruction-content {
+  color: var(--off-white-shade);
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.quiz-done {
+  margin-left: 1rem;
+  color: var(--secondary-color);
+}
+
+.quiz-start {
+  height: 5rem;
+  width: 15rem;
+  background-color: var(--onyx-shade);
+  margin-right: 5rem;
+  border: none;
+  color: var(--grey-shade);
+  border-radius: 5px;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.quiz-start:hover {
+  box-shadow: var(--onyx-shade) 0px 3px 8px;
+  transition: ease-in-out 0.5s;
+}

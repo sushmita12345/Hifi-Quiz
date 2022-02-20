@@ -1,0 +1,29 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/navbar.css";
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-matte-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(---dark-matte-color);
+}
+
+.note-container {
+  color: var(--off-white-shade);
+  font-size: 5rem;
+  margin-top: 10rem;
+}
+
+.note-para {
+  color: var(--off-white-shade);
+  font-size: 5rem;
+}
